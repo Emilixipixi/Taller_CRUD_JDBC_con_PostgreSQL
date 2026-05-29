@@ -7,3 +7,12 @@ CREATE TABLE vehiculos(
   color VARCHAR(30),
   disponible BOOLEAN NOT NULL
 );
+
+
+select * from vehiculos;
+
+drop table vehiculos;
+
+
+ALTER TABLE vehiculos
+ADD kilometraje INT;
